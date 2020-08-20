@@ -38,8 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'leads',
-    'rest_framework'
+    'rest_framework',
+    'frontend',
 ]
+
+
+#STATICFILES_DIRS = [
+  #os.path.join(BASE_DIR, "static"),
+  #os.path.join(BASE_DIR, "frontend/static/"),
+#]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
